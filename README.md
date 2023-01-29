@@ -12,14 +12,16 @@ Actions is the only way your application can interact with the store. Actions ca
 
 #### 3. Reducer - which describes the action and decides how to update the state
 
+Specify how the app's state changes in response to actions sent to the store. Reducer function that accepts state and action as arguments, and returns the next state of the applicaion.
+
+```
+reducer = (previous_state, action) => next_state
+```
+
 ## Three Principles
 
 1. The global state of your application is stored as an object inside a single store.
 2. The only way to change the state is to dispatch an action(Do not allow to update the state directly)
 3. To specify how the space tree is updated based on action write pure reducers
-
-```
-reducer = (previous_state, action) => next_state
-```
 
 ![Three principle's overview](./img//img_1.png)
