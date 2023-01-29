@@ -4,12 +4,12 @@ Source code for redux toolkit tutorial which I [followed:](https://www.youtube.c
 
 ## Definitions
 
-1. Store - Holds the state of your application
+#### 1. Store - Holds the state of your application
 
 #### 2. Action - an plain JS object that describes what happens in the application
 Actions is the only way your application can interact with the store. Actions carry some information from your app to the redux store. They have the `type` property hich describes something that happens to the application. 
 
-3. Reducer - which describes the action and decides how to update the state
+#### 3. Reducer - which describes the action and decides how to update the state
 
 ## Three Principles
 
