@@ -6,6 +6,13 @@ Source code for redux toolkit tutorial which I [followed:](https://www.youtube.c
 
 #### 1. Store - Holds the state of your application
 
+There is only one `store` for a application. It holds the spplication state.
+
+1. Store allows to access the state which it holds via `getState()` method.
+2. Store allows to update the state via `dispatch(state)` method.
+3. Store allows to register listners via `subscribe(listner)` method.
+4. Store Handle the usregistering of listners via the function returned by `subscribe(listner)` method.
+
 #### 2. Action - an plain JS object that describes what happens in the application
 
 Actions is the only way your application can interact with the store. Actions carry some information from your app to the redux store. They have the `type` property which describes something that happens to the application.
