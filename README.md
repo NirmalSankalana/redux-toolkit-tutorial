@@ -32,3 +32,5 @@ reducer = (previous_state, action) => next_state
 3. To specify how the space tree is updated based on action write pure reducers
 
 ![Three principle's overview](./img//img_1.png)
+
+[Additional Reading](https://www.knowledgehut.com/blog/web-development/redux-toolkit)
