@@ -11,7 +11,7 @@ There is only one `store` for a application. It holds the spplication state.
 1. Store allows to access the state which it holds via `getState()` method.
 2. Store allows to update the state via `dispatch(state)` method.
 3. Store allows to register listners via `subscribe(listner)` method.
-4. Store Handle the usregistering of listners via the function returned by `subscribe(listner)` method.
+4. Store Handle the unregistering of listners via the function returned by `subscribe(listner)` method.
 
 #### 2. Action - an plain JS object that describes what happens in the application
 
