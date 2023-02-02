@@ -4,7 +4,7 @@ Source code for redux toolkit tutorial which I [followed:](https://www.youtube.c
 
 ## Definitions
 
-#### 1. Store - Holds the state of your application
+#### 1. Store - Holds the state of your application in a mutable object tree
 
 There is only one `store` for a application. It holds the spplication state.
 
@@ -32,5 +32,9 @@ reducer = (previous_state, action) => next_state
 3. To specify how the space tree is updated based on action write pure reducers
 
 ![Three principle's overview](./img//img_1.png)
+
+## Middleware
+
+The suggested way to extend Redux with custom functionality. Provides a third-party extension point between dispatching an action, and the moment it reaches the reducer. Middlewares are used for logging, crash reporting, performing asynchrnous tasks.
 
 [Additional Reading](https://www.knowledgehut.com/blog/web-development/redux-toolkit)
